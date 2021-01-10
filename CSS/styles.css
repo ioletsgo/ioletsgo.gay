@@ -10,7 +10,7 @@ body {
 }
 .background {
 	width: 75%;
-	height: 75%;
+	height: 500px;
 	background-color: red;
 	animation-name: background;
 	animation-duration: 3s;
