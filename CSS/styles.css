@@ -2,10 +2,11 @@ body {
 	background-color: black;
 }
 @keyframes background {
-	from {background-color: blue;}
-	to {background-color: purple;}
-	from {background-color:purple;}
-	to {background-color:blue;}
+	0% {background-color: blue;}
+	25% {background-color: purple;}
+	75% {background-color:purple;}
+	100% {background-color:blue;}
+	animation-iteration-count: infinite;
 
 }
 .background {
