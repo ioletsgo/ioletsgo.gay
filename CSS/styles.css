@@ -1,3 +1,14 @@
 body {
 	background-color: black;
 }
+@keyframes background {
+  from {background-color: blue;}
+  to {background-color: purple;}
+}
+.background {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: background;
+	animation-duration: 10s;	
+}
