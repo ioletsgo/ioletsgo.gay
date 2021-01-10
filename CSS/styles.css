@@ -2,8 +2,11 @@ body {
 	background-color: black;
 }
 @keyframes background {
-  from {background-color: blue;}
-  to {background-color: purple;}
+	from {background-color: blue;}
+	to {background-color: purple;}
+	from {background-color:purple;}
+	to {background-color:blue;}
+
 }
 .background {
 	width: 100px;
