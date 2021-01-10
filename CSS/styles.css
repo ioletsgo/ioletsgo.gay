@@ -2,8 +2,8 @@ body {
 	background-color: black;
 }
 @keyframes background {
-	0% {background-color: blue; top:75%; left:45%}
-	25% {background-color: purple;}
+	0% {background-color: blue; top:75px; left:45px}
+	25% {background-color: purple; top:70px; left:50px}
 	75% {background-color:purple;}
 	100% {background-color:blue;}
 
