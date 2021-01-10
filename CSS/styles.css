@@ -9,8 +9,8 @@ body {
   100% {background-color:blue; left:0px; top:0px;}
 }
 .background {
-	width: 100px;
-	height: 100px;
+	width: 75%;
+	height: 75%;
 	background-color: red;
 	animation-name: background;
 	animation-duration: 3s;
