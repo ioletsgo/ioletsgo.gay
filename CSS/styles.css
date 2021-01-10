@@ -2,7 +2,7 @@ body {
 	background-color: black;
 }
 @keyframes background {
-	0% {background-color: blue; top:75%}
+	0% {background-color: blue; top:75%; left:45%}
 	25% {background-color: purple;}
 	75% {background-color:purple;}
 	100% {background-color:blue;}
