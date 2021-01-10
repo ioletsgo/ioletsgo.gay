@@ -2,11 +2,11 @@ body {
 	background-color: black;
 }
 @keyframes background {
-	0% {background-color: blue; top:75px; left:45px}
-	25% {background-color: purple; top:70px; left:50px}
-	75% {background-color:purple;}
-	100% {background-color:blue;}
-
+  0%   {background-color:blue; left:0px; top:0px;}
+  25%  {background-color:purple; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:pink; left:0px; top:200px;}
+  100% {background-color:blue; left:0px; top:0px;}
 }
 .background {
 	width: 100px;
