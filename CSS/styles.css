@@ -1,18 +1,4 @@
 body {
-	background-color: black;
+	background-image: Assets/0022G.GIF;
 }
-@keyframes background {
-  0%   {background-color:blue; left:0px; top:0px;}
-  25%  {background-color:purple; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
-  75%  {background-color:pink; left:0px; top:200px;}
-  100% {background-color:blue; left:0px; top:0px;}
-}
-.background {
-	width: 75%;
-	height: 500px;
-	background-color: red;
-	animation-name: background;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
 }
