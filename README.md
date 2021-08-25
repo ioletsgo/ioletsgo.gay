@@ -11,3 +11,5 @@ Several assets, including Backgrounds, from [22,000 Animated Gif CD on Archive.o
 Flaming Text effect by [Cooltext.com](https://cooltext.com/Logo-Design-Burning)
 
 Several banners were taken directly from [jgeoff's ironic webpage where they make fun of trends of the time](http://www.jgeoff.com/homepage/) - [web.archive.org mirror](https://web.archive.org/web/20201109032951/http://www.jgeoff.com/homepage/)
+
+Trans Rights (Early internet inspired) banner by [Welegi](https://twitter.com/hotwaluigisex) - [Alt Account](https://twitter.com/transwaluigi)
