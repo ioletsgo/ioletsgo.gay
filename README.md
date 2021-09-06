@@ -17,7 +17,7 @@ Trans Rights (Early internet inspired) banner by [Welegi](https://twitter.com/ho
 
 [22,000 Animated Gif CD on Archive.org](https://archive.org/details/22000Animatedgifs)
 
-[HTML CLIPPART on Archive.org](https://archive.org/details/html-clipart-CD)
+[HTML CLIPART on Archive.org](https://archive.org/details/html-clipart-CD)
 
 [1500 Clip Art Images](https://archive.org/details/1500ClipArtImages)
 
