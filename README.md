@@ -7,6 +7,12 @@ The website uses minimal CSS because of how most websites of the era barely used
 
 Nirvana's Smells like Teen Spirit midi by [Justin Slade](https://members.tripod.com/~justin_slade/justin/midi.html) - [web.archive.org mirror](http://web.archive.org/web/20210825064424/https://members.tripod.com/~justin_slade/justin/midi.html) - [Midi mirror on archive.org](https://archive.org/details/justin-shades-midi-collection)
 
+Flaming Text effect by [Cooltext.com](https://cooltext.com/Logo-Design-Burning)
+
+Several banners were taken directly from [The 88x31 GIF Collection](https://cyber.dabamos.de/88x31/)
+
+Trans Rights (Early internet inspired) banner by [Welegi](https://twitter.com/hotwaluigisex) - [Alt Account](https://twitter.com/transwaluigi)
+
 # Asset CDs
 
 [22,000 Animated Gif CD on Archive.org](https://archive.org/details/22000Animatedgifs)
@@ -17,8 +23,3 @@ Nirvana's Smells like Teen Spirit midi by [Justin Slade](https://members.tripod.
 
 [500 3D Clip Art](https://archive.org/details/500-3-d-clip-art_202101/500_3D_Clip_Art/500_3D_Clip_Art_disc.jpg)
 
-Flaming Text effect by [Cooltext.com](https://cooltext.com/Logo-Design-Burning)
-
-Several banners were taken directly from [The 88x31 GIF Collection](https://cyber.dabamos.de/88x31/)
-
-Trans Rights (Early internet inspired) banner by [Welegi](https://twitter.com/hotwaluigisex) - [Alt Account](https://twitter.com/transwaluigi)
