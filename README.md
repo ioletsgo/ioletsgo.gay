@@ -19,7 +19,7 @@ Trans Rights (Early internet inspired) banner by [Welegi](https://twitter.com/ho
 
 [HTML CLIPART on Archive.org](https://archive.org/details/html-clipart-CD)
 
-[1500 Clip Art Images](https://archive.org/details/1500ClipArtImages)
+[1500 Clip Art Images on Archive.org](https://archive.org/details/1500ClipArtImages)
 
-[500 3D Clip Art](https://archive.org/details/500-3-d-clip-art_202101/500_3D_Clip_Art/500_3D_Clip_Art_disc.jpg)
+[500 3D Clip Art on Archive.org](https://archive.org/details/500-3-d-clip-art_202101/500_3D_Clip_Art/500_3D_Clip_Art_disc.jpg)
 
