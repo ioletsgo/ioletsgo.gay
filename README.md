@@ -9,6 +9,8 @@ Nirvana's Smells like Teen Spirit midi by [Justin Slade](https://members.tripod.
 
 Several assets, including Backgrounds, from [22,000 Animated Gif CD on Archive.org](https://archive.org/details/22000Animatedgifs)
 
+Further Assets, found here in [HTML CLIPPART](https://archive.org/details/html-clipart-CD)
+
 Flaming Text effect by [Cooltext.com](https://cooltext.com/Logo-Design-Burning)
 
 Several banners were taken directly from [The 88x31 GIF Collection](https://cyber.dabamos.de/88x31/)
