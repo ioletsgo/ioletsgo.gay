@@ -2,15 +2,10 @@ body {
 	background-image: url("/Assets/0022G.gif");
 	background-color: black;
 }
-.text {
+.p {
 	color:white;
 	font-size:130%;
 	text-align:center
-}
-.buttons {
-	min-height: 31px;
-	min-width: 88px;
-	height: 10px^2;
 }
 #Header {
 	margin-top: -2px;
@@ -18,14 +13,6 @@ body {
 	max-width: 100%;
 	text-align: center;
 	background-color: black;
-}
-.buttonsdiv {
-	image-rendering: pixelated;
-	text-align:center;
-	margin: auto;
-	width:25%;
-	min-width: 480px;
-	background-color: gray;
 }
 #Bio {
 	font-size:150%;
@@ -40,7 +27,22 @@ body {
 	padding-right: 2%
 
 }
-img {
+#img {
 	image-rendering:pixelated
 
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  height: -	480px;            /* Footer height */
+}
+.buttonsdiv {
+
+	image-rendering: pixelated;
+	text-align:center;
+	margin: auto;
+	width:25%;
+	min-width: 480px;
+	background-color: gray;
 }
