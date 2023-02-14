@@ -1,6 +1,9 @@
 body {
 	background-image: url("/Assets/0022G.gif");
 	background-color: black;
+	margin:0;
+	padding:0;
+
 }
 .p {
 	color:white;
@@ -22,7 +25,6 @@ body {
 	margin:auto;
 	min-width: 480px;
 	width:25%;
-	text-align:center;
 	padding-left: 2%;
 	padding-right: 2%
 
@@ -32,17 +34,21 @@ body {
 
 }
 #footer {
-  position: absolute;
-  bottom: 0;
-  width: 99%;
-  height: -	480px;            /* Footer height */
+	position: fixed;
+	bottom: 0;
+	width: 99.69%;
+	height: 80px;
+	border: solid transparent;
 }
 .buttonsdiv {
-
+	padding-left:2%;
+	padding-right:2%;
 	image-rendering: pixelated;
 	text-align:center;
 	margin: auto;
 	width:25%;
+	height:105%;
 	min-width: 480px;
+	bottom:0;
 	background-color: gray;
 }
