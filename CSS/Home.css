@@ -5,6 +5,10 @@ body {
 	padding:0;
 
 }
+a {
+	text-decoration: none;
+
+}
 .p {
 	color:white;
 	font-size:130%;
