@@ -2,7 +2,7 @@ body {
 	background-image: url("/Assets/0022G.gif");
 	background-color: black;
 }
-.p {
+p {
 	color:white;
 	font-size:130%;
 	text-align:center
