@@ -1,5 +1,5 @@
 body {
-	background-image: url("/Assets/0022G.GIF");
+	background-image: url("/Assets/0022G.gif");
 	background-color: black;
 }
 .text {
@@ -8,6 +8,39 @@ body {
 	text-align:center
 }
 .buttons {
-	height:50
-	
+	min-height: 31px;
+	min-width: 88px;
+	height: 10px^2;
+}
+#Header {
+	margin-top: -2px;
+/* 	margin-left: -1%; */
+	max-width: 100%;
+	text-align: center;
+	background-color: black;
+}
+.buttonsdiv {
+	image-rendering: pixelated;
+	text-align:center;
+	margin: auto;
+	width:25%;
+	min-width: 480px;
+	background-color: gray;
+}
+#Bio {
+	font-size:150%;
+	text-align:center;
+	color: white;
+	background-color:black;
+	margin:auto;
+	min-width: 480px;
+	width:25%;
+	text-align:center;
+	padding-left: 2%;
+	padding-right: 2%
+
+}
+img {
+	image-rendering:pixelated
+
 }
