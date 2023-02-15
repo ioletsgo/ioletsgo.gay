@@ -7,6 +7,7 @@ body {
 }
 a {
 	text-decoration: none;
+	target:blank;
 
 }
 p {
@@ -16,6 +17,11 @@ p {
 }
 img {
 	image-rendering:pixelated
+}
+iframe {
+	width: 100%;
+	border: none;
+	height:100%;
 
 }
 #Header {
@@ -42,7 +48,7 @@ img {
 	position: fixed;
 	bottom: 0;
 	width: 99.69%;
-	height: 80px;
+	height: 110px;
 	border: solid transparent;
 }
 .buttonsdiv {
