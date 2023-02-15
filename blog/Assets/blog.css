@@ -34,7 +34,7 @@ p {
 	padding-bottom: 15%;
 
 }
-#img {
+img {
 	image-rendering:pixelated
 
 }
@@ -42,7 +42,7 @@ p {
 	position: fixed;
 	bottom: 0;
 	width: 99.69%;
-	height: 80px;
+	height: 105px;
 	border: solid transparent;
 }
 .buttonsdiv {
@@ -69,4 +69,4 @@ p {
 	padding-left: 4%;
 	padding-right: 4%;
 	padding-top: 1%;
-	padding-bottom: 5%;
+	padding-bottom: 7%;
