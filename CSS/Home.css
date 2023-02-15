@@ -1,5 +1,5 @@
 body {
-	background-image: url("/Assets/0022G.gif");
+	background-image: url("../Assets/0022G.gif");
 	background-color: black;
 	margin:0;
 	padding:0;
@@ -9,7 +9,7 @@ a {
 	text-decoration: none;
 
 }
-.p {
+p {
 	color:white;
 	font-size:130%;
 	text-align:center
@@ -57,3 +57,16 @@ a {
 	bottom:0;
 	background-color: gray;
 }
+
+.Blog {
+	font-size:150%;
+	text-align:center;
+	color: white;
+	background-color:black;
+	margin:auto;
+	min-width: 480px;
+	width:25%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 1%;
+	padding-bottom: 5%;
