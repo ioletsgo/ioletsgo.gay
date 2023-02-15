@@ -17,7 +17,7 @@ p {
 }
 
 img {
-	image-rendering:pixelated;
+/* 	image-rendering:pixelated; */
 	width: 50%;
 }
 
