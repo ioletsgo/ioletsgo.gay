@@ -1,0 +1,74 @@
+body {
+	background-image: url("8uUv6sz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: black;
+	margin:0;
+	padding:0;
+      background-position: left top;
+    min-height: 100vh;
+}
+
+h2 {
+    color:White;
+    letter-spacing:15px;
+    font-size:calc(30px + 3vh);
+    margin-bottom:calc(-35px - 1vh);
+    animation: title 4s linear 0s infinite;
+    cursor:default;
+}
+a {
+    text-decoration:none;
+    color:inherit;
+    cursor: default;
+
+}
+p:hover {
+    color: #fff443;
+    text-shadow: 0px 0px 7.5px #fff443;
+    cursor: default;
+
+}
+@font-face {
+    font-family:DIN;
+    src: url(din1451alt.ttf);
+}
+#Title {
+    font-family:DIN;
+    padding-top:5%;
+
+}
+.Button {
+    font-family:DIN;
+    color: #dec449;
+    padding-left:10%;
+    font-size:calc(6px + 2vh);
+}
+.gloss {
+    width:650.23px;
+    height:63.5;
+    margin-right:0;
+    height:calc(50px + 2vh);
+    margin-bottom:calc(15px - 0.5vh);
+    animation: blur 4s linear 0s infinite;
+}
+
+@keyframes blur {
+    0% {margin-left:calc(-50px + 2vw); }
+    25% {margin-left:calc(-50px + 6vw);}
+    35% {margin-left:calc(-50px + 4vw);}
+    50% {margin-left:calc(-50px + 6vw);}
+    75% {margin-left:calc(-50px + 4vw);}
+    95% {margin-left:calc(-50px + 7vw);}
+    100% {margin-left:calc(-50px + 2vw);}
+}
+
+@keyframes title {
+    0% {padding-left:12%;}
+    25% {padding-left:14%;}
+    35% {padding-left:13%;}
+    50% {padding-left:14%;}
+    75% {padding-left:13%;}
+    95% {padding-left:14%;}
+    100% {padding-left:12%;}
+}
