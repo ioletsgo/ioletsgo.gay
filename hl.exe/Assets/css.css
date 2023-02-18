@@ -5,23 +5,50 @@ body {
 	background-color: black;
 	margin:0;
 	padding:0;
-      background-position: left top;
+    background-position: left top;
     min-height: 100vh;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-
+embed {
+    position:absolute;
+    display:none;
+    top:-1000in;
+    left:-1000in;
+}
 h2 {
     color:White;
     letter-spacing:15px;
     font-size:calc(30px + 3vh);
     margin-bottom:calc(-35px - 1vh);
     animation: title 4s linear 0s infinite;
-    cursor:default;
+     cursor:default;
+}
+p {
+    background: none;
+    font-family:DIN;
+    color: #dec449;
+    padding-left:10%;
+    font-size:calc(6px + 2vh);
+    border:none;
+    padding-left:0%;
+
+}
+p:active + embed {
+    display: block;
+
 }
 a {
     text-decoration:none;
     color:inherit;
     cursor: default;
-
+}
+iframe {
+    border-style: none;
+    width:100%;
+    height:96vh;
+/*     margin-bottom:-96vh; */
 }
 p:hover {
     color: #fff443;
@@ -39,6 +66,7 @@ p:hover {
 
 }
 .Button {
+    width:25%;
     font-family:DIN;
     color: #dec449;
     padding-left:10%;
@@ -52,7 +80,7 @@ p:hover {
     margin-bottom:calc(15px - 0.5vh);
     animation: blur 4s linear 0s infinite;
 }
-
+/* Animation */
 @keyframes blur {
     0% {margin-left:calc(-50px + 2vw); }
     25% {margin-left:calc(-50px + 6vw);}
@@ -62,7 +90,6 @@ p:hover {
     95% {margin-left:calc(-50px + 7vw);}
     100% {margin-left:calc(-50px + 2vw);}
 }
-
 @keyframes title {
     0% {padding-left:12%;}
     25% {padding-left:14%;}

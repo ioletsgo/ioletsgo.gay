@@ -14,16 +14,26 @@
 Margin-Left:-10px;margin-right:5px;">LF-LIFE</h2></div>
 <img class="gloss" src="Assets/smeer.png">
 <div class="Button">
-<p>New Game</p>
-<p>Hazard Course</p>
-<p>Configuration</p>
-<p>Load Game</p>
-<p>Multiplayer</p>
-<p>Create Server</p>
-<p>Custom Game</p>
-<p>Quit</p>
+<!-- <a href-"" target="_parent"><p onclick="document.getElementById('select').play();">Console</p></a> -->
+<a href-"" target="_parent"><p onclick="document.getElementById('select').play();">New Game</p></a>
+<a href-"" target="_parent"><p onclick="document.getElementById('select').play();">Hazard Course</p></a>
+<a href-"" target="_parent"><p onclick="document.getElementById('select').play();">Configuration</p></a>
+<a href-"" target="_parent"><p onclick="document.getElementById('select').play();">Load Game</p></a>
+<a href-"" target="_parent"><p onclick="document.getElementById('select').play();">Multiplayer</p></a>
+<a href-"" target="_parent"><p onclick="document.getElementById('select').play();">Create Server</p></a>
+<a href-"" target="_parent"><p onclick="document.getElementById('select').play();">Custom Game</p></a>
+<a href="javascript:close_window();"><p onclick="document.getElementById('select').play();">Quit</p></a>
 </div>
 <footer>
 </footer>
 </body>
+<!-- All the magic shit that doesn't really make sense but okay i guess-->
+<audio id="select" src="Assets/launch_select2.wav" preload="auto"></audio>
+<script>
+function close_window() {
+  if (confirm("Are you sure?")) {
+    close();
+  }
+}
+</script>
 </html>
