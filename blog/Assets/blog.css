@@ -24,7 +24,7 @@ img {
 iframe {
 	width: 100%;
 	border: none;
-/* 	margin-top: -1px; */
+	height:100%;
 
 }
 #Header {
@@ -61,20 +61,20 @@ iframe {
 	text-align:center;
 	margin: auto;
 	width:25%;
-	height:105%;
+	height:	width:calc(480px + 25vh);;
 	min-width: 480px;
 	bottom:0;
 	background-color: gray;
 }
 
 .Blog {
-	font-size:150%;
+	font-size:calc(24px + 0.5vh);
 	text-align:center;
 	color: white;
 	background-color:black;
 	margin:auto;
-	min-width: 480px;
-	width:25%;
+/* 	min-width: 480px; */
+	width:calc(480px + 25vh);
 	padding-left: 4%;
 	padding-right: 4%;
 	padding-top: 1%;

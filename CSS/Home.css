@@ -7,7 +7,6 @@ body {
 }
 a {
 	text-decoration: none;
-	target:blank;
 
 }
 p {
@@ -16,7 +15,8 @@ p {
 	text-align:center
 }
 img {
-	image-rendering:pixelated
+	image-rendering:pixelated;
+
 }
 iframe {
 	width: 100%;
@@ -32,13 +32,13 @@ iframe {
 	background-color: black;
 }
 #Bio {
-	font-size:150%;
+	font-size:calc(24px + 2vh);
 	text-align:center;
 	color: white;
 	background-color:black;
 	margin:auto;
-	min-width: 480px;
-	width:25%;
+/* 	min-width: 480px; */
+	width:calc(480px + 2vw);
 	padding-left: 2%;
 	padding-right: 2%
 	padding-bottom: 15%;
@@ -58,7 +58,7 @@ iframe {
 	text-align:center;
 	margin: auto;
 	width:25%;
-	height:105%;
+	height:	width:calc(480px + 25vh);;
 	min-width: 480px;
 	bottom:0;
 	background-color: gray;
@@ -76,3 +76,7 @@ iframe {
 	padding-right: 4%;
 	padding-top: 1%;
 	padding-bottom: 5%;
+}
+.buttons {
+	width:calc(62px + 5vh);
+}
