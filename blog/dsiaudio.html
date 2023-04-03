@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Blog - DSi Audio</title>
+<link rel="shortcut icon" type="image/png" href="../Assets/they.png">
+<meta property="og:description" content="The DSi has a really, really terrible microphone. What can we do about it?"> <br>
+<meta property="og:image" content="https://ioletsgo.gay/blog/Assets/microphone setup.jpg">
+<style>
+@import "Assets/blog.css"
+</style>
+</head>
+<body>
+<div class="buttonsdiv">
+<iframe class="iframe" src="Assets/banner.html" title="Banner"></iframe>
+</div>
+<div class="Blog">
+<h2>The DSI, Flipnote Studio, and The Quest For The Best Mic Quality. </h2>
+The DSi is a funny little guy. Anybody who has used the DS family of devices are acutely aware of how actually terrible the microphone for the devices are. They peak easily, and have a habit of picking up echos better than it can pick up voices.
+<br>
+<img src="Assets/dsidiagram.png" title="A digram from the DSi Operations Manual, showcasing the device in the opened position."><img src="Assets/dsimic1.png" title="An addendum of the dsi diagram, where Number 7 is marked Microphone"><br>
+Flipnote Studio is an interesting suite as an animation tool. It's simplicity was it's key to amazing creative animations. Hell, I've made flipnotes of my own. It's quite fun, actually.
+<iframe src="https://www.sudomemo.net/watch/embed/D7F762_15CA97C380785_014" scrolling="no" frameborder="0" height="429" width="512" display="block"></iframe><br>
+Facts are, flipnote is great, However... There is one major issue holding them back. And that is...<br>
+<b>Drumroll Please...</b><br>
+<img src="Assets/dsimic1.jpg" title="A picture of The DSi Internal Microphone."><br>
+This little fucker. The OEM microphone that comes with the DSi. As mentioned beforehand, the microphone is far from quality. Let me explain.
+<h3>The Importance of Gain</h3>
+In the field of Audio, there is a term called <i>"Gain"</i>, or the Sensitivity of a microphone. It's actually part of the secret to good microphone quality. It truly wouldn't matter if you used an AT2020, a Rock Band Microphone, or a Logictech webcam microphone, if the gain is out of whack, it's going to sound terrible. In this case, you can actually make almost any device sound good with the twist of a singular nob.
+<br><img src="Assets/dsigain.jpg" title="The built-in DSi Microphone Test, which showcases the absolute sensitivity that the microphone is known for"><br>
+<p class="subtext">The microphone is seen clipping, when all I said in a hushed tone was "Test".</p>
+<h3>Initial Solutions</h3>
+Flipnote creators have been utilizing <a href="https://www.reddit.com/r/techsupportmacgyver/">Macgyver ass solutions</a> in order to obtain the best and most optimized audio quality.
+<br><img src="Assets/microphone setup.jpg" title="A picture depicting an audio setup I used, where a song is being streamed from my laptop to the dsi through bluetooth headphones, inbetween a pop filter."><br>
+A common Macgyver method for those who don't have spare audio equipment laying around is known as the Audacity Method, and is utilized by creators like <a href="https://www.sudomemo.net/user/5534F62031CD64B8@DSi"> CerealBowlby</a> in their titular series <a href="https://www.youtube.com/channel/UC3OskQFSlpdmgpwqyfuokJA">The June Archive</a>. The Audacity Method involves recording and slowing down the audio you recorded to 50%, and then in the Flipnote Suite, select Speed 5, record the audio, and then select Speed 6.
+<img src="Assets/audacity.png" title="A screenshot of the Audacity Open Source Audio Editing & Manipulation Program."><img src="Assets/dsifps.png" title="A table explaining the framerate of the Speed Settings. (Notice the scale of twos!)"><br>
+The reason why this method equates to high audio quality is because of <b>Bitrate</b>. You are squeezing more data for the DSi's microphone that would normally not be picked up, giving a higher bitrate than the microphone would typically be capable of, and thus higher quality audio. There are downsides, typically in that you won't be able to make Flipnotes longer than <b>30 seconds</b>, because of Flipnote's Music (Main Audio Channel) Minute Rule, where the maximum time allowed is a Minute in any framerate. If you record a minute of your favorite song and then change the Speed settings to run faster, you would not be able to record more audio.
+<img src="Assets/flipnote_sound_menu.png" title="A screenshot of the Bottom Screen of the Flipnote Application in the Audio Tab."><br>
+But what if there was another way...
+<h2>Another Way?</h2>
+<p class="subtext">Please be aware that this is <i>Mostly Theoretical</i>. There is a prototype in development, however extensive testing has been done to ensure this concept will work.</p>
+A seldom discussed part of the DS/DSi family which is the key to this problem is actually the Aux and <b>Microphone</b> port. Yes, you heard me right. Microphone port.<br>
+<img src="Assets/dsimicport.jpg" title="A picture taken of the DS's Aux and Microphone(!!) Ports."><br>
+A behavior that is almost never discussed by anybody in the field of technology is how versatile the modern Aux cable is. It's almost impossible to imagine but at some point Aux wasn't specified to carry headphones. Afterall, they couldn't really power anything of significance.<br>
+However, it changed with the addition of the introduction of Audio to the AUX standard, which occurred after the development of the DSi. (In fact, you could stream audio directly from a computer to a 3ds!!)
+<a href="Assets/dsimicdiagram1.png"><img src="Assets/dsimicdiagram1.png" title="A labeled screenshot of QPWGraph demonstrating Desired Audio, (Optional) Equalizers & Others, and Aux Outputs."></a><br>
+For this demonstration, I would like to introduce a good friend of the blog, The <a href="win7.html">Toshiba Satellite L305 running Windows 7</a>!<br>
+<img src="Assets/dsilaptopaudiostream1.jpg" title="A demonstration of audio streaming from one device to another through an aux cable."><br>
+<audio controls loop>
+  <source src="Assets/dsiaudiostream1.mp3" type="audio/mpeg">
+  A snippit of Mr Kitty's song After Dark, the outcome of streaming it from my IdeaPad to the Toshiba Satellite L305.
+</audio><br>
+In Layman's Terms, The idea is to do a version of the diagram below, where instead of MelonDS's mic intercepting the audio output as an input, it's an actual DS/DSi that's intercepting the audio output as an input<br>
+<a href="Assets/dsimicdiagram2.png"><img src="Assets/dsimicdiagram2.png" title="A screenshot of QPWGraph showcasing a super simplified version of the desired outcome, where instead of a vague hardware output, it's the MelonDS DS and DSi emulator."></a><br>
+This blog is currently a work in progress, Updates will arrive on a semi-regular basis. What I have in store is truly going to be magical.
+</div>
+<footer id="footer">
+<div class="buttonsdiv">
+<iframe class="iframe" src="../Assets/buttons.html" title="Buttons"></iframe>
+</div>
+</footer>
+</body>

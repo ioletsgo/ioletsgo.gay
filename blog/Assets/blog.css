@@ -7,7 +7,7 @@ body {
 }
 a {
 	text-decoration: none;
-	color:darkgrey;
+	color:green;
 
 }
 p {
@@ -22,7 +22,7 @@ img {
 	width: 50%;
 }
 
-iframe {
+.iframe {
 	width: 100%;
 	border: none;
 	height:100%;
@@ -40,7 +40,7 @@ iframe {
 	text-align:center;
 	color: white;
 	background-color:black;
-	margin:auto;
+ 	margin:auto;
 	min-width: 480px;
 	width:25%;
 	padding-left: 2%;
@@ -88,3 +88,4 @@ iframe {
 	font-size:75%;
 	text-align:center
 }
+
