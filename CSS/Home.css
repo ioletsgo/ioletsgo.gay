@@ -80,10 +80,8 @@ iframe {
 .buttons {
 	width:calc(62px + 5vh);
 }
+h1 {
 
-.4041 {
-	text-align:center;
-display:block;
-width:50%;
-margin:auto;
+	    -webkit-text-stroke: 2px black; /* width and color */
+
 }
