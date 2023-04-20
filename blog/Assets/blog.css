@@ -20,6 +20,8 @@ p {
 img {
 /* 	image-rendering:pixelated; */
 	width: 50%;
+	margin:auto;
+	display:block;
 }
 
 .iframe {
@@ -44,7 +46,7 @@ img {
 	min-width: 480px;
 	width:25%;
 	padding-left: 2%;
-	padding-right: 2%
+	padding-right: 2%;
 	padding-bottom: 17%;
 
 }
@@ -70,7 +72,7 @@ img {
 
 .Blog {
 	font-size:calc(24px + 0.5vh);
-	text-align:center;
+/* 	text-align:center; */
 	color: white;
 	background-color:black;
 	margin:auto;
@@ -89,3 +91,9 @@ img {
 	text-align:center
 }
 
+h2 {
+	text-align:center;
+}
+h3 {
+	text-align:center;
+}
