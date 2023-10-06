@@ -1,0 +1,74 @@
+@font-face {
+   font-family:ibmbios;
+   src: url(fonts/ibmbios.woff) format('woff');
+/*   src: url(fonts/ibmbios.ttf) format('ttf')*/
+}
+
+* {
+   font-family:ibmbios;
+}
+
+body {
+    background-color:black;
+    color:white;
+   font-size:calc(0.25vh + 16px);
+}
+a {
+	text-decoration: none;
+    color:white;
+}
+
+hr {
+  border: none;
+    border-top-style:dashed;
+    border-width: 5px;
+}
+p {
+    text-indent:50px;
+}
+#logo {
+z-index:2;
+margin-left:15%;
+}
+#logoshadow{
+    opacity: 0.7;
+    position:absolute;
+    left:15%;
+    top:0%;
+}
+#socials{
+      z-index:0;
+      position:absolute;
+      top:25px;
+      width:90%;
+      text-align:right;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+}
+
+
+#friends {
+    border-style:dashed;
+    border-width: 5px;
+    top:2%;
+    left:5%;
+    position:relative;
+    width:40vh;
+    height:40%;
+    background-color:white;
+    color:black;
+}
+#main {
+    border-style:dashed;
+    border-width: 5px;
+    left:25vw;
+    top:17%;
+    position:absolute;
+/*     height: 60%; */
+    width:40vw;
+    margin:5px;
+    background-color:black;
+    color:white;
+
+}
