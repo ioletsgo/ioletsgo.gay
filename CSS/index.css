@@ -6,6 +6,9 @@
 
 * {
    font-family:ibmbios;
+   font-size:93%;
+   font-smooth: never;
+    -webkit-font-smoothing: none;
 }
 
 body {
