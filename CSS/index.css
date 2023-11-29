@@ -55,9 +55,9 @@ margin-left:15%;
     border-style:dashed;
     border-width: 5px;
     top:2%;
-    left:5%;
+    margin:auto;
     position:relative;
-    width:40vh;
+    width:80vh;
     height:40%;
     background-color:white;
     color:black;
@@ -65,12 +65,12 @@ margin-left:15%;
 #main {
     border-style:dashed;
     border-width: 5px;
-    left:25vw;
-    top:17%;
-    position:absolute;
+    margin:auto;
+    top:200%;
+    position:relative;
 /*     height: 60%; */
     width:40vw;
-    margin:5px;
+/*     margin:5px; */
     background-color:black;
     color:white;
 
