@@ -12,6 +12,7 @@
 }
 
 body {
+    margin:0;
     background-color:black;
     color:white;
    font-size:calc(0.25vh + 16px);
@@ -20,7 +21,10 @@ a {
 	text-decoration: none;
     color:white;
 }
-
+a:hover {
+    cursor:pointer;
+    color:yellow;
+}
 hr {
   border: none;
     border-top-style:dashed;
@@ -28,6 +32,12 @@ hr {
 }
 p {
     text-indent:50px;
+}
+audio {
+    display:none;
+}
+img {
+    image-rendering:pixelated;
 }
 #logo {
 z-index:2;
@@ -52,6 +62,7 @@ margin-left:15%;
 
 
 #friends {
+    padding-top:5px;
     border-style:dashed;
     border-width: 5px;
     top:2%;
@@ -74,4 +85,7 @@ margin-left:15%;
     background-color:black;
     color:white;
 
+}
+#pause {
+    display:none;
 }
