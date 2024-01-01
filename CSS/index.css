@@ -40,23 +40,30 @@ img {
     width:88px;
     height:31px;
     image-rendering:pixelated;
+    transition: all .1s ease-in-out;
+}
+img:hover {
+    scale:1.4;
 }
 #logo {
-z-index:2;
+z-index:1;
 margin-left:15%;
+position:relative;
+top:10px;
 }
 #logoshadow{
     opacity: 0.7;
     position:absolute;
     left:15%;
-    top:0%;
+    top:10px;
 }
 #socials{
-      z-index:0;
+    left:75%;
+      z-index:15;
       position:absolute;
       top:25px;
-      width:90%;
-      text-align:right;
+      width:10%;
+/*       text-align:right; */
       user-select: none;
       -moz-user-select: none;
       -webkit-user-select: none;
@@ -74,6 +81,7 @@ margin-left:15%;
     height:40%;
     background-color:white;
     color:black;
+    padding:10px;
 }
 #main {
     padding:10px;
@@ -82,9 +90,9 @@ margin-left:15%;
     margin:auto;
     top:200%;
     position:relative;
-/*     height: 60%; */
     width:calc(40vw + 150px);
 /*     margin:5px; */
+    padding-bottom:15px;
     background-color:black;
     color:white;
 
