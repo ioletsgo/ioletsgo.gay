@@ -93,6 +93,8 @@ var images = document.getElementsByTagName("IMG");
   function dell() {
   if (confirm("Dell?") == true) {
   text = "Accepted";
+      document.getElementById("logo").innerHTML = '<img style="width:10%;height:10%;" src="Assets/Dell_Logo.png" \>';
+      document.getElementById("logoshadow").style.display = "none";
   for ( i=0; i<document.styleSheets.length; i++) {
 }
   for (var i=0; images[i]; i++){
@@ -118,20 +120,6 @@ var tracker = document.getElementById("trackermusic");
 		}
 function pronouns() {
 alert("The existence of pronouns implies the existence of novice nouns and intermediate nouns");}
-function ivorybutton() {
-  // Get the text field
-  var copyText = document.getElementById("myInput");
-
-  // Select the text field
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); // For mobile devices
-
-   // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText.value);
-
-  // Alert the copied text
-  alert("Copied the text: " + copyText.value);
-}
 </script>
   </body>
 </html>
