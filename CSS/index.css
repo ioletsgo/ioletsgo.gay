@@ -1,9 +1,7 @@
 @font-face {
    font-family:ibmbios;
-   src: url(fonts/ibmbios.woff) format('woff');
-/*   src: url(fonts/ibmbios.ttf) format('ttf')*/
+    src: url(fonts/ibmbios.woff) format('woff');
 }
-
 * {
    font-family:ibmbios;
    font-size:93%;
@@ -24,6 +22,7 @@ a {
 a:hover {
     cursor:pointer;
     color:yellow;
+    image-rendering:smooth;
 }
 hr {
   border: none;
@@ -31,19 +30,23 @@ hr {
     border-width: 5px;
 }
 p {
+   font-family:ibmbios;
     text-indent:50px;
 }
 audio {
     display:none;
 }
 img {
-    width:88px;
-    height:31px;
+/*    width:88px;
+    height:31px;*/
     image-rendering:pixelated;
     transition: all .1s ease-in-out;
 }
 img:hover {
     scale:1.4;
+}
+span {
+    color:yellow;
 }
 #logo {
 z-index:1;
@@ -84,6 +87,7 @@ top:10px;
     padding:10px;
 }
 #main {
+   overflow:hidden;
     padding:10px;
     border-style:dashed;
     border-width: 5px;

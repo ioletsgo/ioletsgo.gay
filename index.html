@@ -6,12 +6,15 @@
 <link rel="shortcut icon" type="image/png" href="Assets/they.png">
 <meta property="og:image" content="https://ioletsgo.gay/Assets/they.png">
     <style>
-    @import "CSS/index.css"
+    @import "CSS/index.css";
+    body {
+    background-color:black;
+    color:white;}
     </style>
   </head>
   <body>
     <header></header>
-    <main>
+    <main id="body">
 <div style="padding-bottom:10px;background-color:blue;width:100%;">
 
 <a href="/"><pre role="none" id="logoshadow" style="z-index=-1;position:absolute;">
@@ -31,8 +34,8 @@
 <div id="socials" style="float:right;">
   <a rel="me" href="https://wetdry.world/@ioletsgo">Mastodon</a><br>
   <a href="https://discord.com/users/590057924387143702">Discord</a><br>
-  <a href="https://steamcommunity.com/id/ioletsgo/  ">Steam</a>
-  <a rel="me" href="https://wetdry.world/@ioletsgo">Newgrounds</a><br>
+  <a href="https://steamcommunity.com/id/ioletsgo/">Steam</a><br>
+  <a rel="me" href="https://ioletsgo.newgrounds.com">Newgrounds</a><br>
   </div>
 
 <hr>
@@ -47,7 +50,7 @@
       <p>
       Hiya, My name is ioletsgo, but you can call me ivory, ivy, or just io.</p>
       <p>I'm a genderfluid fem-presenting artist, trumpet & bari-sax player, tech nerd, music theory nerd, and comedian.</p>
-      <p>my preferred pronouns are <span onclick="pronouns()" style="color:yellow">She/They</span>.
+      <p>my preferred pronouns are <span onclick="pronouns()">She/They</span>.
 <!--       <center><A STYLE="color:yellow;" href="/art">Wanna commission me?</a></center> -->
       <p>I like to describe myself by the stuff that I produce, I also like to consume media.</p>
       <p>I'm a big fan of Ace Attorney, Persona, Ori, Vib-Ribbon, Hypnospace Outlaw, Oneshot, Rollercoaster Tycoon, Portal and the Half-Life video game franchises. I generally enjoy puzzle and murder mysteries, however the list of stuff I enjoy isn't limited to video games.</p>
@@ -64,11 +67,13 @@
       Misc.
     <hr>
     </a> <a id="play" onclick = "playtracker()"><img title="Click me if you want to listen to some banging tunes!" src="Assets/buttons/sherbetbutton.gif"></a> <a id="pause" onclick = "pausetracker()"> <img title="Click me if you don't like the music!" src="Assets/buttons/sherbetbutton.gif"></a>
-    <a href="https://wetdry.world"><img src="Assets/buttons/neo-fedi.gif"></a> <a onclick="pronouns()"><img src="Assets/buttons/she-they.gif"></a> <a href="https://kernel.org"><img src="Assets/buttons/gnu-linux.gif"></a> <a href="https://www.albinoblacksheep.com"><img src="Assets/buttons/ab03.gif"></a> <a href="https://archive.org/details/@ioletsgo"><img src="Assets/buttons/internetarchive.gif"></a> <a href="https://en.wikipedia.org/wiki/Enshittification"><img src="Assets/buttons/nocookie.gif"></a> <a href="https://deltarune.com"><img src="Assets/buttons/ralseismokingadart.gif"></a> <a href="https://newgrounds.com"><img src="Assets/buttons/newgrounds.gif"></a> <img src="Assets/buttons/shitify.gif">
+    <a href="https://wetdry.world"><img src="Assets/buttons/neo-fedi.gif"></a>
+    <a onclick="pronouns()"><img src="Assets/buttons/she-they.gif"></a> <a href="https://kernel.org"><img src="Assets/buttons/gnu-linux.gif"></a> <a href="https://www.albinoblacksheep.com"><img src="Assets/buttons/ab03.gif"></a> <a href="https://archive.org/details/@ioletsgo"><img src="Assets/buttons/internetarchive.gif"></a> <a href="https://en.wikipedia.org/wiki/Enshittification"><img src="Assets/buttons/nocookie.gif"></a> <a href="https://deltarune.com"><img src="Assets/buttons/ralseismokingadart.gif"></a> <a href="https://newgrounds.com"><img src="Assets/buttons/newgrounds.gif"></a> <img src="Assets/buttons/shitify.gif">
     <a onclick = "source()"><img src="Assets/buttons/sourcemissing.gif"></a>
-    <a href="http://wii.com"><img src="Assets/buttons/wii.gif"></a> <img src="Assets/buttons/bob.gif"> <img src="Assets/buttons/virusalert.gif"> <img src="Assets/buttons/opengl.gif"> <a href="https://ryujinx.org/download"><img src="Assets/buttons/switch_now.gif"></a> <a href="https://www.amd.com/en.html"><img src="Assets/buttons/amd_powered.gif"></a> <img src="Assets/buttons/gregg.gif"> <a href="https://www.half-life.com"><img src="Assets/buttons/hl.gif"></a> <img src="Assets/buttons/transnow2.gif">
-    <a onclick = "playfort()"><img src="Assets/buttons/timsweeney.gif"></a> <img src="Assets/buttons/tyg.gif"> <img src="Assets/buttons/bestviewedopen.gif"> <a href="https://eightyeightthirty.one/"><img src="Assets/buttons/88x31.png"></a> <img src="Assets/buttons/anthrax.gif"> <a href="https://www.gimp.org"><img src="Assets/buttons/gimp.gif"></a> <a href="https://vivaldi.com"><img src="Assets/buttons/vivaldi.gif"></a> <a href="https://essem.space"><img src="Assets/buttons/mysterysite.gif"></a> <a href="https://vinesauce.com"><img src="Assets/buttons/vsbutton.gif"></a>
-    <a onclick = "dell()"><img src="Assets/buttons/dell_88x31.gif"></a> <a href="https://archlinux.org"><img src="Assets/buttons/archlinux.gif"></a> <img src="Assets/buttons/graphicdesign.gif"> <img src="Assets/buttons/happy2006.gif"> <img src="Assets/buttons/hicolor.gif"> <a href="https://c.xkcd.com/random/comic/"><img src="Assets/buttons/xkcd.gif"></a> <img src="Assets/buttons/ie1984.gif"> <img src="Assets/buttons/insanity.gif"> <a href="https://www.youtube.com/watch?v=4JkIs37a2JE"><img src="Assets/buttons/jamiroquai.gif"></a> <a href="https://www.youtube.com/watch?v=cQzMHhRCTYw"><img src="Assets/buttons/weezer4.gif"></a> <a href="https://ioletsgo.gay/Rickroll"><img src="Assets/buttons/troll.png"></a> <a href="https://xenia-linux-site.glitch.me"><img src="Assets/buttons/xenia.png"></a> <img src="Assets/buttons/y2k2.gif"> <a href="https://jspaint.app"><img src="Assets/buttons/yay_its_a_button.gif"></a> <a href="https://www.traderjoes.com/home"><img src="Assets/buttons/tj88x31.gif"></a> <a href="https://isp.netscape.com"><img src="Assets/buttons/netscape5.gif"></a> <img src="Assets/buttons/asus.gif"> <img src="Assets/buttons/chrome.gif"> <img src="Assets/buttons/SpiritHalloween.png">
+    <a href="http://wii.com"><img src="Assets/buttons/wii.gif"></a> <a href="https://www.youtube.com/watch?v=yD2FSwTy2lw"><img src="Assets/buttons/bob.gif"></a> <a href="https://youtu.be/zvfD5rnkTws&t=164" target=_blank onclick="virus()"><img src="Assets/buttons/virusalert.gif"></a> <img src="Assets/buttons/opengl.gif"> <a href="https://ryujinx.org/download"><img src="Assets/buttons/switch_now.gif"></a> <a href="https://www.amd.com/en.html"><img src="Assets/buttons/amd_powered.gif"></a> <a href="https://www.youtube.com/watch?v=K5zzrjKrCdc"><img src="Assets/buttons/gregg.gif"></a> <a href="https://www.half-life.com"><img src="Assets/buttons/hl.gif"></a> <img src="Assets/buttons/transnow2.gif"> <a href="http://www.savewalterwhite.com"><img src="Assets/buttons/savewalterwhite.gif"></a>
+    <a onclick = "playfort()"><img src="Assets/buttons/timsweeney.gif"></a> <a href="https://www.mariowiki.com/Mario_Kart_DS"><img src="Assets/buttons/tyg.gif"></a> <img src="Assets/buttons/bestviewedopen.gif"> <a href="https://eightyeightthirty.one#ioletsgo.gay"><img src="Assets/buttons/88x31.png"></a> <img src="Assets/buttons/anthrax.gif"> <a href="https://www.gimp.org"><img src="Assets/buttons/gimp.gif"></a> <a href="https://vivaldi.com"><img src="Assets/buttons/vivaldi.gif"></a> <a href="https://essem.space"><img src="Assets/buttons/mysterysite.gif"></a> <a href="https://vinesauce.com"><img src="Assets/buttons/vsbutton.gif"></a>
+    <a onclick = "dell()"><img src="Assets/buttons/dell_88x31.gif"></a> <a href="https://archlinux.org"><img src="Assets/buttons/archlinux.gif"></a> <img src="Assets/buttons/graphicdesign.gif"> <img src="Assets/buttons/happy2006.gif"> <img src="Assets/buttons/hicolor.gif"> <a href="https://c.xkcd.com/random/comic/"><img src="Assets/buttons/xkcd.gif"></a> <a href="https://www.youtube.com/watch?v=euiSHuaw6Q4"><img src="Assets/buttons/ie1984.gif"></a> <a href="https://nyaa.si/view/964646"><img src="Assets/buttons/insanity.gif"></a> <a href="https://www.youtube.com/watch?v=4JkIs37a2JE"><img src="Assets/buttons/jamiroquai.gif"></a> <a href="https://www.youtube.com/watch?v=cQzMHhRCTYw"><img src="Assets/buttons/weezer4.gif"></a> <a href="https://ioletsgo.gay/Rickroll"><img src="Assets/buttons/troll.png"></a> <a href="https://xenia-linux-site.glitch.me"><img src="Assets/buttons/xenia.png"></a> <img src="Assets/buttons/y2k2.gif"> <a href="https://jspaint.app"><img src="Assets/buttons/yay_its_a_button.gif"></a> <a href="https://www.traderjoes.com/home"><img src="Assets/buttons/tj88x31.gif"></a> <a href="https://winworldpc.com/product/netscape-navigator/2x"><img src="Assets/buttons/netscape5.gif"></a> <img src="Assets/buttons/asus.gif"> <img src="Assets/buttons/chrome.gif">
+    <a onclick="spirit()"><img src="Assets/buttons/SpiritHalloween.png"></a> <a href="https://archive.org/details/Windows7-iso"><img src="Assets/buttons/win7.gif"></a> <a href="https://www.1377x.to/torrent/5486041/Better-Call-Saul-2015-Season-1-6-S01-S06-1080p-BluRay-x265-HEVC-10bit-AAC-5-1-Silence-QxR/"><img src="Assets/buttons/saulgoodman.gif"></a> <img src="Assets/buttons/archbtw.png"> <a href="https://bambosh.dev/unofficial-homestuck-collection/"><img src="Assets/buttons/e-hs.gif"></a> <img src="Assets/buttons/ffmpeg.gif"> <a href="https://neocities.org"><img src="Assets/buttons/gc_slow.gif"></a> <a href="https://cooltext.com/Logo-Design-Burning"><img src="Assets/buttons/gfx_cool.gif"></a> <a href="https://www.w3schools.com/html/default.asp"><img src="Assets/buttons/learn_html.gif"></a> <a href="https://www.youtube.com/watch?v=NocXEwsJGOQ"><img src="Assets/buttons/miku.gif"></a> <a href="steam://rungameid/440"><img src="Assets/buttons/tfnow.gif"></a> <img src="Assets/buttons/spadinner.gif"> <img src="Assets/buttons/tidw2.gif"> <a href="https://www.pepsicopartners.com/pepsico/en/USD/BEVERAGES/Soft-Drinks/Mug-Root-Beer-%28Fountain%29/p/1-HYK-39123"><img src="Assets/buttons/mug.gif"></a> <a href="https://blog.ioletsgo.gay/index.xml#feed"><img src="Assets/buttons/valid-rss.gif"></a> <a href="https://www.youtube.com/watch?v=-ga41edXw3A"><img src="Assets/buttons/amiga_power.gif"></a> <img src="Assets/buttons/fguy.gif"> <img src="Assets/buttons/biden.png"> <a href="https://www.youtube.com/watch?v=ha7smLPz2GY"><img src="Assets/buttons/trumpetfight.gif"></a> <img src="Assets/buttons/bu12.gif"> <img src="Assets/buttons/antinft.gif"> <img src="Assets/buttons/fckfb.gif">
 
 
 <audio controls="" id="trackermusic" name="trackermusic"><source src="https://gba.ioi-xd.net/stream" type="application/ogg"></audio>
@@ -79,7 +84,6 @@
 var images = document.getElementsByTagName("IMG");
   function source() {
   if (confirm("Deleting CSS.\nContinue?") == true) {
-  text = "Accepted";
   for ( i=0; i<document.styleSheets.length; i++) {
     void(document.styleSheets.item(i).disabled=true);
 }
@@ -92,8 +96,7 @@ var images = document.getElementsByTagName("IMG");
 };
   function dell() {
   if (confirm("Dell?") == true) {
-  text = "Accepted";
-      document.getElementById("logo").innerHTML = '<img style="width:10%;height:10%;" src="Assets/Dell_Logo.png" \>';
+      document.getElementById("logo").innerHTML = '<img style="width:10%;height:9%;" src="Assets/Dell_Logo.png" \>';
       document.getElementById("logoshadow").style.display = "none";
   for ( i=0; i<document.styleSheets.length; i++) {
 }
@@ -101,6 +104,10 @@ var images = document.getElementsByTagName("IMG");
     images[i].setAttribute('src', "Assets/buttons/dell.png");
 }
 }}
+  function spirit() {
+  document.getElementById("logo").innerHTML = '<img style="width:10%;height:10%;image-rendering:smooth;" src="Assets/Spirit.png" \>';
+  document.getElementById("logoshadow").style.display = "none";
+  }
 var fortnite = document.getElementById("fort");
         function playfort() {
         fortnite.currentTime = 0;
@@ -120,6 +127,9 @@ var tracker = document.getElementById("trackermusic");
 		}
 function pronouns() {
 alert("The existence of pronouns implies the existence of novice nouns and intermediate nouns");}
+
+function virus() {
+alert("ALERT!\nYOU HAVE VIRUS A MILLION\n\nCLICK ON THIS BUTTON NOW")}
 </script>
   </body>
 </html>
