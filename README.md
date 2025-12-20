@@ -1,9 +1,2 @@
 # ioletsgo.gay
-[ioletsgo.gay](https://ioletsgo.gay) is a website designed with the idea to replicate and/more mimic a lot of early internet techniques, instead of going for early web 1.0 designs, but going closer towards what would be seen during when Usenet was the biggest MAN.
-
-# Acknowledgments
-[ioletsgo.gay](https://ioletsgo.gay) would not be possible without the unacknowledged work of many people
-
-IBM BIOS font was thanklessly provided by VileRz [Personal Site Found Here](https://int10h.org) [For More Fonts, Check Here!](https://int10h.org/oldschool-pc-fonts/)
-
-Ascii Art Logo by Me :3
+The most recent rendition of [ioletsgo.gay](https://ioletsgo.gay) pushes to try and maintain a unique interface that doesn't compromise on mobile navigation. It is heavily inspired off of the VGUI2 theme popularized by Valve's Half-Life. The background can be found [here](https://developer.valvesoftware.com/wiki/File:Half-Life_-_Background.png) on behalf of the Valve Developer Community wiki.

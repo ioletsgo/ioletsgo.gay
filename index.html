@@ -1,85 +1,124 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="">
   <head>
     <meta charset="utf-8">
-    <title>ioletsgo.gay</title>
-<link rel="shortcut icon" type="image/png" href="Assets/they.png">
-<meta property="og:image" content="https://ioletsgo.gay/Assets/they.png">
+    <title></title>
     <style>
-    @import "CSS/index.css";
-    body {
-    background-color:black;
-    color:white;}
+    @import "assets/style.css";
     </style>
   </head>
   <body>
     <header></header>
-    <main id="body">
-<div style="padding-bottom:10px;background-color:blue;width:100%;">
+    <main>
+    <div class="bg-image"></div>
 
-<a href="/"><pre role="none" id="logoshadow" style="z-index=-1;position:absolute;">
+    <div class="container">
+      <div id="main" class="div">
+            <div id="header"><div><img src="assets/icon_steam.png"> Console</img></div>
+              <button style="padding:3px;padding-top:0px;padding-bottom:0px;margin-top:0px;"><img src="assets/X.png"></button>
+            </div>
+        <div id="content">
 
-░  ░░ ░░ ░░░░ ░░░
-░  ░░ ░░ ░░░░░░░░
-░░░░░░░░░░░░░░ ░░
-░░░░░░░░░░░░░
+          <div id="console">
+<pre>
+OnNewUrlLaunchParameters
+Playing Startup Videos...
+WebMPlayer::PlayVideo /home/ioletsgo/.local/share/Steam/steamapps/common/Half-Life/valve/media/valve.webm
+Length: 10.024000
+]read info.txt
+Accessing Greeting.txt...
+Success!
+
+NAME: <span>Ivory/io/ivy/Ioletsgo</span>
+PRONOUNS: <span>She/They</span>
+BIO: <span>Blue shapeshifting fox-like thing, 5'1", TestOut PC Pro, Network Pro, & Security Pro Certified, lives at [REDACTED].</span>
+INTERESTS: <span>Computers, Electronics, Visual Art, Musical Instruments, Metal Gear, Half-Life, Final Fantasy, Guitar Hero, Persona, Vib-Ribbon, Ace Attorney, Yakuza, House M.D., & a lot more</span>
+
+PS: I love VGUI2 :3
 </pre>
-    <pre style="z-index:15;" id="logo" role="img" title="ioletsgo.gay logo" aria-label="an ascii logo that spells out 'ioletsgo.gay'">
-▄ ▄▄▐▌▄▄▄▄▄▄ ▄ ▄▄
-▄▐ █▐▌█▄ ▌█▄▐ ▌▌▐
-█▐▄█▐▌█▄ ▌▄█ ▀▌▌▐
-▄▄        ▄▄▄▀ ▀▀.GAY
-  ▀▀▀▀▀▀▀▀
-</pre></a></div>
-<div id="socials" style="float:right;">
-  <a rel="me" href="https://wetdry.world/@ioletsgo">Mastodon</a><br>
-  <a href="https://discord.com/users/590057924387143702">Discord</a><br>
-  <a href="https://steamcommunity.com/id/ioletsgo/">Steam</a><br>
-  <a rel="me" href="https://ioletsgo.newgrounds.com">Newgrounds</a><br>
-  </div>
-
-<hr>
-</div>
-    <div id="friends" style="text-align:center;">
-    Friends<hr>
-    <img src="Assets/buttons/ivorybutton.gif"> <a href="https://squibbus.neocities.org/"><img src="Assets/buttons/axelbutton.gif"> <a href="https://danielah05.github.io/"><img src="Assets/buttons/daniela.gif"></a>  </a> <a href="https://nixgoat.me/"><img src="Assets/buttons/nixgoatbutton.gif"></a> <a href="https://invoxiplaygames.uk/"><img src="Assets/buttons/ipg.png"></a> <a href="https://thxdee.neocities.org/"><img src="Assets/buttons/thxdee.gif"></a> <a href="https://whistlr.neocities.org/"><img src="https://whistlr.neocities.org/assets/buttons/button.png"></a> <a href="https://bekzii.neocities.org"><img src="Assets/buttons/BEKZII_WEBSITE_CARD.gif"></a> <a href="https://notnite.com"><img src="https://notnite.com/buttons/notnite.png"></a> <a href="https://mae.wtf/"><img src="https://mae.wtf/_next/image?url=%2Fassets%2Fbuttons%2Fmae.png&w=96&q=100"></a> <a href="https://devkats.club"><img src="Assets/buttons/devkats.gif"></a>
-    </div>
-    <div id="main">
-      <center><span >Ivory / Ivy / Io</span>
-      <hr>
-      <span onclick="pronouns()">She/her | They/Them | Genderfluid</span><br>
-      Girlfriend of Squibbus, lover of all things tech, art, and music.<br><br>
-      My interests are, in no specific order:</p>
-      <ul>
-      <li>Metal Gear</li>
-      <li>Half-Life</li>
-      <li>Ace Attorney</li>
-      <li>Shin-Megami Tensei: Persona</li>
-      <li>Vib-Ribbon</li>
-      </ul>
-      <p>
-      <center><a style="color:yellow;" href="https://blog.ioletsgo.gay">I also have a Blog!</a></center>
-    </div>
-</main>
-<footer>
-  <div id="friends" style="text-align:center;top:100%">
-      Misc.
-    <hr>
-    </a> <a id="play" onclick = "playtracker()"><img title="Click me if you want to listen to some banging tunes!" src="Assets/buttons/sherbetbutton.gif"></a> <a id="pause" onclick = "pausetracker()"> <img title="Click me if you don't like the music!" src="Assets/buttons/sherbetbutton.gif"></a>
-    <a href="https://wetdry.world"><img src="Assets/buttons/neo-fedi.gif"></a>
-    <a onclick="pronouns()"><img src="Assets/buttons/she-they.gif"></a> <a href="https://kernel.org"><img src="Assets/buttons/gnu-linux.gif"></a> <a href="https://www.albinoblacksheep.com"><img src="Assets/buttons/ab03.gif"></a> <a href="https://archive.org/details/@ioletsgo"><img src="Assets/buttons/internetarchive.gif"></a> <a href="https://en.wikipedia.org/wiki/Enshittification"><img src="Assets/buttons/nocookie.gif"></a> <a href="https://deltarune.com"><img src="Assets/buttons/ralseismokingadart.gif"></a> <a href="https://newgrounds.com"><img src="Assets/buttons/newgrounds.gif"></a> <img src="Assets/buttons/shitify.gif">
-    <a onclick = "source()"><img src="Assets/buttons/sourcemissing.gif"></a>
-    <a href="http://wii.com"><img src="Assets/buttons/wii.gif"></a> <a href="https://www.youtube.com/watch?v=yD2FSwTy2lw"><img src="Assets/buttons/bob.gif"></a> <a href="https://youtu.be/zvfD5rnkTws&t=164" target=_blank onclick="virus()"><img src="Assets/buttons/virusalert.gif"></a> <img src="Assets/buttons/opengl.gif"> <a href="https://ryujinx.org/download"><img src="Assets/buttons/switch_now.gif"></a> <a href="https://www.amd.com/en.html"><img src="Assets/buttons/amd_powered.gif"></a> <a href="https://www.youtube.com/watch?v=K5zzrjKrCdc"><img src="Assets/buttons/gregg.gif"></a> <a href="https://www.half-life.com"><img src="Assets/buttons/hl.gif"></a> <img src="Assets/buttons/transnow2.gif"> <a href="http://www.savewalterwhite.com"><img src="Assets/buttons/savewalterwhite.gif"></a>
-    <a onclick = "playfort()"><img src="Assets/buttons/timsweeney.gif"></a> <a href="https://www.mariowiki.com/Mario_Kart_DS"><img src="Assets/buttons/tyg.gif"></a> <img src="Assets/buttons/bestviewedopen.gif"> <a href="https://eightyeightthirty.one#ioletsgo.gay"><img src="Assets/buttons/88x31.png"></a> <img src="Assets/buttons/anthrax.gif"> <a href="https://www.gimp.org"><img src="Assets/buttons/gimp.gif"></a> <a href="https://vivaldi.com"><img src="Assets/buttons/vivaldi.gif"></a> <a href="https://essem.space"><img src="Assets/buttons/mysterysite.gif"></a> <a href="https://vinesauce.com"><img src="Assets/buttons/vsbutton.gif"></a>
-    <a onclick = "dell()"><img src="Assets/buttons/dell_88x31.gif"></a> <a href="https://archlinux.org"><img src="Assets/buttons/archlinux.gif"></a> <img src="Assets/buttons/graphicdesign.gif"> <img src="Assets/buttons/happy2006.gif"> <img src="Assets/buttons/hicolor.gif"> <a href="https://c.xkcd.com/random/comic/"><img src="Assets/buttons/xkcd.gif"></a> <a href="https://www.youtube.com/watch?v=euiSHuaw6Q4"><img src="Assets/buttons/ie1984.gif"></a> <a href="https://nyaa.si/view/964646"><img src="Assets/buttons/insanity.gif"></a> <a href="https://www.youtube.com/watch?v=4JkIs37a2JE"><img src="Assets/buttons/jamiroquai.gif"></a> <a href="https://www.youtube.com/watch?v=cQzMHhRCTYw"><img src="Assets/buttons/weezer4.gif"></a> <a href="https://ioletsgo.gay/Rickroll"><img src="Assets/buttons/troll.png"></a> <a href="https://xenia-linux-site.glitch.me"><img src="Assets/buttons/xenia.png"></a> <img src="Assets/buttons/y2k2.gif"> <a href="https://jspaint.app"><img src="Assets/buttons/yay_its_a_button.gif"></a> <a href="https://www.traderjoes.com/home"><img src="Assets/buttons/tj88x31.gif"></a> <a href="https://winworldpc.com/product/netscape-navigator/2x"><img src="Assets/buttons/netscape5.gif"></a> <img src="Assets/buttons/asus.gif"> <img src="Assets/buttons/chrome.gif">
-    <a onclick="spirit()"><img src="Assets/buttons/SpiritHalloween.png"></a> <a href="https://archive.org/details/Windows7-iso"><img src="Assets/buttons/win7.gif"></a> <a href="https://www.1377x.to/torrent/5486041/Better-Call-Saul-2015-Season-1-6-S01-S06-1080p-BluRay-x265-HEVC-10bit-AAC-5-1-Silence-QxR/"><img src="Assets/buttons/saulgoodman.gif"></a> <img src="Assets/buttons/archbtw.png"> <a href="https://bambosh.dev/unofficial-homestuck-collection/"><img src="Assets/buttons/e-hs.gif"></a> <img src="Assets/buttons/ffmpeg.gif"> <a href="https://neocities.org"><img src="Assets/buttons/gc_slow.gif"></a> <a href="https://cooltext.com/Logo-Design-Burning"><img src="Assets/buttons/gfx_cool.gif"></a> <a href="https://www.w3schools.com/html/default.asp"><img src="Assets/buttons/learn_html.gif"></a> <a href="https://www.youtube.com/watch?v=NocXEwsJGOQ"><img src="Assets/buttons/miku.gif"></a> <a href="steam://rungameid/440"><img src="Assets/buttons/tfnow.gif"></a> <img src="Assets/buttons/spadinner.gif"> <img src="Assets/buttons/tidw2.gif"> <a href="https://www.pepsicopartners.com/pepsico/en/USD/BEVERAGES/Soft-Drinks/Mug-Root-Beer-%28Fountain%29/p/1-HYK-39123"><img src="Assets/buttons/mug.gif"></a> <a href="https://blog.ioletsgo.gay/index.xml#feed"><img src="Assets/buttons/valid-rss.gif"></a> <a href="https://www.youtube.com/watch?v=-ga41edXw3A"><img src="Assets/buttons/amiga_power.gif"></a> <img src="Assets/buttons/fguy.gif"> <img src="Assets/buttons/biden.png"> <a href="https://www.youtube.com/watch?v=ha7smLPz2GY"><img src="Assets/buttons/trumpetfight.gif"></a> <img src="Assets/buttons/bu12.gif"> <img src="Assets/buttons/antinft.gif"> <img src="Assets/buttons/fckfb.gif"> <a href="https://www.youtube.com/watch?v=F41zgPR5BPk"><img src="Assets/buttons/vibri-button.gif">
-
-
-<audio controls="" id="trackermusic" name="trackermusic"><source src="https://gba.ioi-xd.net/stream" type="application/ogg"></audio>
-<audio controls="" id="fort" name="fort"><source src="Assets/FortOG.mp3"></audio>
+          </div>
+          <div id="input">
+            <input id="console"></input>
+            <button style="float:right;">Submit</button>
+          </div>
+        </div>
       </div>
+
+      <div id="options" class="div">
+        <div id="header"><div><img src="assets/icon_steam.png">Options</img></div><button style="padding:3px;padding-top:0px;padding-bottom:0px;margin-top:0px;"><img src="assets/X.png"></button>
+            </div>
+           <div style="height:85%;"> <div class="inputs" style="overflow-y:hidden">
+              <input id="friends" type="radio" name="vgui_friends" checked><label for="friends" onclick="location.href='#Friends'">Friends</label>
+              <input id="misc" type="radio" name="vgui_friends"><label for="misc" onclick="location.href='#Misc'">Misc.</label>
+              <input id="bsky" type="radio" name="vgui_friends"><label for="bsky" onclick="location.href='https://bsky.app/profile/ioletsgo.gay'">Bluesky</label>
+              <input id="discord" type="radio" name="vgui_friends"><label for="discord" onclick="location.href='https://discord.com/users/590057924387143702'">Discord</label>
+              <input id="steam" type="radio" name="vgui_friends"><label for="steam" onclick="location.href='https://steamcommunity.com/id/ioletsgo/'">Steam</label>
+              <input id="newgrounds" type="radio" name="vgui_friends"><label for="newgrounds" onclick="location.href='https://ioletsgo.newgrounds.com'">Newgrounds</label>
+              <input id="blog" type="radio" name="vgui_friends"><label for="blog" onclick="location.href='https://blog.ioletsgo.gay'">Blog</label>
+            </div>
+          <div class="optionwindow">
+
+<div class="friends" id="Friends" style="position:relative;top:0;">
+    <a><img src="assets/buttons/ivorybutton.gif"></a>
+    <a href="https://squibbus.neocities.org/"><img src="assets/buttons/axelbutton.gif">
+    <a href="https://daniela.lol"><img src="assets/buttons/daniela.gif"></a>
+    <a href="https://invoxiplaygames.uk/"><img src="assets/buttons/ipg.png"></a>
+    <a href="https://essem.space"><img src="assets/buttons/esmbadge.gif"></a>
+    <a href="https://dionicio3.com"><img src="assets/buttons/diobutton.gif"></a>
+    <a href="https://bsky.app/profile/did:plc:dfbz4hifhryn4ie5uqverxda"> <img src="assets/buttons/veebutt.png"></a>
+    <a href="https://notnite.com"><img src="https://notnite.com/buttons/notnite.png"></a>
+    <a href="https://maniac95.info"><img src="assets/buttons/infobutton.gif"></a>
+    <a href="https://nixgoat.me/"><img src="assets/buttons/nixgoatbutton.gif"></a>
+    <a href="https://thxdee.neocities.org/"><img src="assets/buttons/thxdee.gif"></a>
+    <a href="https://bekzii.neocities.org"><img src="assets/buttons/BEKZII_WEBSITE_CARD.gif"></a>
+    <a href="https://mae.wtf/"><img src="https://mae.wtf/_next/image?url=%2Fassets%2Fbuttons%2Fmae.png&w=96&q=100"></a>
+    <a href="https://whistlr.neocities.org/"><img src="https://whistlr.neocities.org/assets/buttons/button.png"></a>
+    <a href="https://racc.at/"><img src="https://racc.at/media/uploads/88x31.png" alt="racc.at 88x31"/></a>
+
+</div>
+
+<div class="friends" id="Misc" style="position:relative;top:50%;">
+    <a onclick = "source()"><img src="assets/buttons/sourcemissing.gif"></a>
+    <a href="http://www.savewalterwhite.com"><img src="assets/buttons/savewalterwhite.gif"></a>
+    <a href="http://www.wii.com"><img src="assets/buttons/wii.gif"></a>
+    <a href="https://en.wikipedia.org/wiki/History_of_the_web_browser"><img src="assets/buttons/chrome.gif"></a>
+    <a href="https://youtu.be/zvfD5rnkTws&t=164" target=_blank onclick="virus()"><img src="assets/buttons/virusalert.gif"></a>
+    <a href="https://kde.org"><img src="assets/buttons/kde.gif"></a>
+</div>
+</div>
+          </div>
+          <div style="display:flex;float:right;justify-content: space-between;width:35vh;">
+  <button style="width: 10vh;text-align:left;outline:0.3vh solid black;">OK</button> <button style="width: 10vh;text-align:left;">Cancel</button> <button style="width: 10vh;text-align:left;">Apply</button>
+          </div>
+      </div>
+    </div>
+    </main>
+    <footer>
 </footer>
 <script>
+
+ if (window.location.hash != null && window.location.hash != "") {
+   var tabName = window.location.hash.substr(1);
+   document.querySelector("input#"+tabName.toLowerCase()).checked = false;
+ }
+
+// function updatewindowheight() {
+// if (window.location.hash != null && window.location.hash != "") {
+// window.location.assign(window.location.hash)
+// }}
+
+const SinnerHeight = window.innerHeight;
+const SdevicePixelRatio = window.devicePixelRatio;
+
+function updatewindowheight() {
+let innerHeight = window.innerHeight;
+let devicePixelRatio = window.devicePixelRatio;
+if ((innerHeight != SinnerHeight) || (devicePixelRatio != SdevicePixelRatio)) {
+  if (window.location.hash != null && window.location.hash != "") {
+  console.log("true")
+  window.location.assign(window.location.hash)}
+
+}}
 var images = document.getElementsByTagName("IMG");
   function source() {
   if (confirm("Deleting CSS.\nContinue?") == true) {
@@ -87,47 +126,16 @@ var images = document.getElementsByTagName("IMG");
     void(document.styleSheets.item(i).disabled=true);
 }
   for (var i=0; images[i]; i++){
-    images[i].setAttribute('src', "Assets/buttons/missing.png");
+    images[i].setAttribute('src', "assets/buttons/missing.png");
 }
 } else {
   text = "Cancelled";
 }
 };
-  function dell() {
-  if (confirm("Dell?") == true) {
-      document.getElementById("logo").innerHTML = '<img style="width:10%;height:9%;" src="Assets/Dell_Logo.png" \>';
-      document.getElementById("logoshadow").style.display = "none";
-  for ( i=0; i<document.styleSheets.length; i++) {
-}
-  for (var i=0; images[i]; i++){
-    images[i].setAttribute('src', "Assets/buttons/dell.png");
-}
-}}
-  function spirit() {
-  document.getElementById("logo").innerHTML = '<img style="width:10%;height:10%;image-rendering:smooth;" src="Assets/Spirit.png" \>';
-  document.getElementById("logoshadow").style.display = "none";
-  }
-var fortnite = document.getElementById("fort");
-        function playfort() {
-        fortnite.currentTime = 0;
-        fortnite.play()
-        }
-var tracker = document.getElementById("trackermusic");
-		function playtracker() {
-			tracker.play();
-			document.getElementById("play").style.display = "none";
-			document.getElementById("pause").style.display = "inline";
-		}
-		function pausetracker() {
-			tracker.pause();
-			document.getElementById("play").style.display = "inline";
-			document.getElementById("pause").style.display = "none";
-		}
-function pronouns() {
-alert("The existence of pronouns implies the existence of novice nouns and intermediate nouns");}
-
 function virus() {
 alert("ALERT!\nYOU HAVE VIRUS A MILLION\n\nCLICK ON THIS BUTTON NOW")}
-</script>
+  </script>
   </body>
 </html>
+
+
